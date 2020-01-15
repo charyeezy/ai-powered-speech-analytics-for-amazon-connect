@@ -10,15 +10,15 @@ Description: >
     - A Java Lambda to consume KVS and stream it to Amazon Transcribe, store the segments in DDB and upload the raw audio to S3
     - A Node.js Lambda triggered by S3 once WAV file is uploaded to store the concatenated transcript segments in the contact details table along with the S3 location of the audio file
     - A Node.js Lambda triggered by CloudFormation to create a sample Amazon Connect contact flow, pre-populated with the Lambda ARNs and placed in the S3 bucket for you to import in to your Amazon Connect instance.
-    - (SO0054) %%VERSION%%"
+    - (SO0054) v1.0.1"
 
 Mappings:
     FunctionMap:
         Configuration:
-            S3Bucket: "%%BUCKET_NAME%%"
-            S3Key: "AI-powered-speech-analytics-for-amazon-connect/%%VERSION%%/"
+            S3Bucket: "solutions"
+            S3Key: "AI-powered-speech-analytics-for-amazon-connect/v1.0.1/"
             SolutionID: "SO0054"
-            Version: "%%VERSION%%"
+            Version: "v1.0.1"
     Send:
         AnonymousUsage:
             Data: "Yes"
@@ -1310,3 +1310,4 @@ Resources:
                         - JP
                         - AU
                         - FR
+                        - NZ
