@@ -1,5 +1,7 @@
 # AI Powered Speech Analytics for Amazon Connect
-todo
+Demo video [here](https://www.youtube.com/watch?v=PvnbGpRcV64)
+
+Solutions guide [here](https://docs.aws.amazon.com/solutions/latest/ai-powered-speech-analytics-for-amazon-connect/components.html) - deployment steps [here](https://docs.aws.amazon.com/solutions/latest/ai-powered-speech-analytics-for-amazon-connect/deployment.html) 
 
 ## Running unit tests for customization
 * Clone the repository, then make the desired code changes
@@ -33,7 +35,7 @@ aws s3 cp ./dist/ s3://my-bucket-name-<aws_region>/$SOLUTION_NAME/$VERSION/ --re
 * Get the link of the solution template uploaded to your Amazon S3 bucket.
 * Deploy the solution to your account by launching a new AWS CloudFormation stack using the link of the solution template in Amazon S3.
 
-*** 
+***
 
 ## File Structure
 
