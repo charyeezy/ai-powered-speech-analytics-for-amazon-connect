@@ -1,9 +1,39 @@
-# AI Powered Speech Analytics for Amazon Connect
-Demo video [here](https://www.youtube.com/watch?v=PvnbGpRcV64)
+# AI Powered Speech Analytics for Amazon Connect Demo 
 
-Solutions guide [here](https://docs.aws.amazon.com/solutions/latest/ai-powered-speech-analytics-for-amazon-connect/components.html) - deployment steps [here](https://docs.aws.amazon.com/solutions/latest/ai-powered-speech-analytics-for-amazon-connect/deployment.html) 
+
+### [Demo Site](https://deloitte-ai-connect-demo-website.s3-ap-southeast-2.amazonaws.com/CCP/agentAssist.html)
+
+![](demo.gif)
+
+### Architecture
+![ai-powered-speech-amazon-connect-architecture](ai-powered-speech-amazon-connect-architecture.png)
+
+
+
+### Useful Links to Solution Guides
+
+1. [Demo video](https://www.youtube.com/watch?v=PvnbGpRcV64)
+2. [Solutions guide](https://docs.aws.amazon.com/solutions/latest/ai-powered-speech-analytics-for-amazon-connect/components.html)
+3. [Deployment steps](https://docs.aws.amazon.com/solutions/latest/ai-powered-speech-analytics-for-amazon-connect/deployment.html)
+4. [Official Implementation Guide](https://s3.amazonaws.com/solutions-reference/AI-powered-speech-analytics-for-amazon-connect/latest/AI-powered-speech-analytics-for-amazon-connect.pdf)
+
+
+### Sandbox Connect AWS account 
+
+Please email [chaleong@deloitte.co.nz](mailto:chaleong@deloitte.co.nz) for login details into the [sandbox-connect](https://sandbox-connect.signin.aws.amazon.com/console) AWS account.
+
+### Amazon Connect instance
+
+Link to the instance [here](https://deloitte-connect-demo.awsapps.com/connect/login).
+
+Login: DeloitteAdmin 
+Pass: DeloitteAdmin123
+
+
+
 
 ## Running unit tests for customization
+
 * Clone the repository, then make the desired code changes
 * Next, run unit tests to make sure added customization passes the tests
 ```
